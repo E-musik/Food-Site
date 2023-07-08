@@ -4,29 +4,28 @@
     margin: 0px;
 }
 
-.head{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 0px;
-    
-
-}
-
-
 .logo img{
     width: 100px;
     height: 100px;
 }
 
-.hi li{
-    display: inline-flex;
-    justify-content: center;
-    align-content: space-between;
+.hi{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-top: 10px;
+    cursor: pointer;
 
 }
 
-.hi li a{
+.list li{
+    display: inline-flex;
+    align-items: center;
+    list-style: none;
+    
+}
+
+.list li a{
     color: white;
     padding: 5px;
     text-decoration: none;
@@ -48,6 +47,7 @@
     display: flex;
     justify-content: space-around;
 }
+
 .firsta h2{
     color: rgb(196, 64, 16);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -69,8 +69,8 @@
 button{
     color: white;
     background-color: rgb(196, 64, 16);
-    width: 100px;
-    height: 30px;
+    width: 150px;
+    height: 50px;
     border-radius: 10px;
     border: black;
     font-weight: 100;
@@ -92,8 +92,8 @@ button:hover{
 
 .first img{
     width: 500px;
-    height: 300px;
-    border-radius: 30px;
+    height: 250px;
+    border-radius: 50px;
     
 }
 
@@ -133,6 +133,12 @@ button:hover{
     align-items: center;
     
 }
+
+.third .th{
+    margin-left: 750px;
+    justify-content: center;
+}
+
 .thirda{
     display: flex;
     justify-content: space-evenly;
@@ -144,7 +150,7 @@ button:hover{
     font-size: 20px;
     font-weight: 100;
     line-height: 40px;
-    margin-left: 48%;
+   
 }
 
 .third h3{
@@ -153,7 +159,7 @@ button:hover{
     color: white;
     font-weight: 100;
     line-height: 20px;
-    margin-left: 45%;   
+      
 }
 
 .third p{
@@ -276,12 +282,13 @@ button:hover{
 
 .forth{
     align-items: center;
-    
+    justify-content: center;
 }
 
 .forth img{
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
+    
 }
 
 .fortha{
@@ -327,7 +334,7 @@ button:hover{
 
 .fifth{
     border: 2px solid #ffff;
-    padding: 50px;
+   
     margin-left: 25%;
     margin-right: 50%;
     box-shadow: black;
@@ -428,11 +435,16 @@ button:hover{
     font-weight: 100;
 }
 
+.media{
+    box-shadow: none;
+}
+
 .media a{
     color: #ffff;
     padding: 20px;
     border-radius: 50%;
     background-color: rgb(236, 77, 19);
+
        
 }
 
